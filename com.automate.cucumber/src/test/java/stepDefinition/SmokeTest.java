@@ -16,7 +16,7 @@ public class SmokeTest {
 	public void Open_Chrome_and_start_application() throws Throwable {
 	    // Express the Regexp above with the code you wish you had
 
-		System.setProperty("webdriver.chrome.driver", "C:\\MB&A\\Selenium\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "\\chromedriver_win32\\chromedriver.exe");
 		
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
