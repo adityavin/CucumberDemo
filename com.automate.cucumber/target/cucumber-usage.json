@@ -1,0 +1,99 @@
+[
+  {
+    "source": "^application should be closed$",
+    "steps": [
+      {
+        "name": "application should be closed",
+        "aggregatedDurations": {
+          "average": 0.926901963,
+          "median": 0.926901963
+        },
+        "durations": [
+          {
+            "duration": 1.014534168,
+            "location": "MyApplication.feature:49"
+          },
+          {
+            "duration": 0.839269758,
+            "location": "MyApplication.feature:49"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I enter valid \"([^\"]*)\" and valid \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "I enter valid \"adit1\" and valid \"adity1\"",
+        "aggregatedDurations": {
+          "average": 1.041938153,
+          "median": 1.041938153
+        },
+        "durations": [
+          {
+            "duration": 1.041938153,
+            "location": "MyApplication.feature:47"
+          }
+        ]
+      },
+      {
+        "name": "I enter valid \"adit2\" and valid \"adity2\"",
+        "aggregatedDurations": {
+          "average": 0.873901686,
+          "median": 0.873901686
+        },
+        "durations": [
+          {
+            "duration": 0.873901686,
+            "location": "MyApplication.feature:47"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user should be able to login successfully$",
+    "steps": [
+      {
+        "name": "user should be able to login successfully",
+        "aggregatedDurations": {
+          "average": 1.321842367,
+          "median": 1.321842367
+        },
+        "durations": [
+          {
+            "duration": 1.466910772,
+            "location": "MyApplication.feature:48"
+          },
+          {
+            "duration": 1.176773963,
+            "location": "MyApplication.feature:48"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Open Chrome and start application$",
+    "steps": [
+      {
+        "name": "Open Chrome and start application",
+        "aggregatedDurations": {
+          "average": 7.319243051,
+          "median": 7.319243051
+        },
+        "durations": [
+          {
+            "duration": 9.238483352,
+            "location": "MyApplication.feature:46"
+          },
+          {
+            "duration": 5.400002751,
+            "location": "MyApplication.feature:46"
+          }
+        ]
+      }
+    ]
+  }
+]
